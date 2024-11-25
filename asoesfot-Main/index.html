@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="/asoesfot-Main/src/css/styles.css">
 <head>
-    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+    </script>
+    <script>
+            var typed = new Typed("#typed", {
+                strings: ['Bienvenid@s Esfotdianos', 'Noticias actuales', 'Apoyo académico', 'Cursos de refuerzo', ' y mucho más....'],
+                typeSpeed: 50,
+                backDelay: 500,
+                startDelay: 1000,
+                loop: true,
+            });
+        </script>
 </head>
 <body>
     <header class="header">
@@ -11,10 +22,10 @@
             </div>
             <div class="header__barra">
                 <div class="navegacion">
-                    <a href=" class="navegacion__link navegacion__link--active">Inicio</a>
-                    <a href="" class="navegacion__link">Nosotros</a>
-                    <a href="" class="navegacion__link">Servicios</a>
-                    <a href="" class="navegacion__link">Contactos</a>
+                    <a href="/asoesfot-Main/index.html"class="navegacion__link--active">Inicio</a>
+                    <a href="/asoesfot-Main/src/pages/nosotros.html" class="navegacion__link">Nosotros</a>
+                    <a href="/asoesfot-Main/src/pages/servicios.html" class="navegacion__link">Servicios</a>
+                    <a href="/asoesfot-Main/src/pages/contacto.html" class="navegacion__link">Contactos</a>
                 </div>
                 <div class="buttons">
                     <a href="./src/pages/login.html" class="button">Login</a>
